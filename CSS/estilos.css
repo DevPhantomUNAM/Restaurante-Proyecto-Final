@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-background-origin: border-box;
+    background-origin: border-box;
+}
+
+body{
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+/* Header */
+header{
+    width:  100%;
+    background: url('../IMAGES/bg.jpg') #281a0c;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+
+}
+header .contenedor{
+    position: relative;
+    height: 700px;
+}
+header .menu {
+    width: 100%;
+    text-align: right;
+
+}
+header .contenedor .menu a{
+    color: #FFF;
+    font-size: 20px;
+    display: inline-block;
+    margin: 40px 20px;
+    text-decoration: none;
+    position: relative;
+}
+header .contenedor .menu a:hover{
+    text-decoration: underline;
+}
+
+header .contenedor .textos{
+    width: 100%;
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    margin-top: -52px;
+}
+header .contenedor .textos .nombre{
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+header .contenedor .textos .nombre span{
+    font-weight: 200;
+}
+header .contenedor .textos h3{
+    font-weight: 200;
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* MAIN */
+
+.main{
+    background: url(../IMAGES/bg-textura.png);
+}
+.main .acerca-de .contenedor{
+    overflow: visible;
+    position: relative;
+}
+
+.main .acerca-de .contenedor .foto{
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    z-index: 0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+}
+.main .acerca-de .contenedor .foto img{
+    vertical-align: top;
+    width: 100%;    
+}
+
+.main .acerca-de .contenedor article{
+    background: #FFF;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+    top: 50px;
+    z-index: 1;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+    float: right;
+    
+}
+.main .acerca-de .contenedor article h3{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.main .acerca-de .contenedor article p{
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+
+/* Menu */
+
+.main .platillos{
+    padding-top: 570px;
+    margin-bottom: 50px;
+}
+
+.main .platillos .titulo{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main .platillos .contenedor {
+    border: 1px solid black;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+}
+.main .platillos .contenedor .contenedor-menu  {
+    border: 1px solid black;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.main .platillos .contenedor .contenedor-menu  article{
+   width: 45%;
+   float:left;
+   padding: 20px;
+}
+.main .platillos .contenedor .contenedor-menu  article .categoria{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.main .platillos .contenedor .contenedor-menu  article .platillo{
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 4px dotted;
+    overflow: hidden;
+    
+}
+.main .platillos .contenedor .contenedor-menu  article .platillo .nombre{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: left;
+    
+}
+.main .platillos .contenedor .contenedor-menu  article .platillo .precio{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: right;    
+}
+.main .platillos .contenedor .contenedor-menu  article .platillo .descripcion{
+    font-size: 16px;
+    color: #676767;
+    clear: both;
+    margin-bottom: 15px;
+    float: right;    
+}
